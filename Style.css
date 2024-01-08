@@ -1,0 +1,39 @@
+body {
+    background-color: #F2F1EB;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label, .newDes {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+input, .new, .newDes {
+    background-color: lightgrey;
+    width: 390px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    color: black
+}
+
